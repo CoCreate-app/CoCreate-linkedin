@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Linkedin</title>
+    <style type="text/css">
+      .template {
+        display: none;
+      }
+    </style>
+  </head>
+  <h1>Profile - Linkedin</h1>
+  <form>
+    Client ID: <input data-linkedin="getLinkedinProfile.client_id" value="78mawgifvkfkk1">
+    Client Secret: <input data-linkedin="getLinkedinProfile.client_secret" value="Yz1UXE9fQRgHFST2">
+    Client AccessToken: <input data-linkedin="getLinkedinProfile.accessToken" value="AQX7GXFDh3wgpheCZYDwzEF-LxRwiygHXXxS6uhzeD5IBqLwO7EMinWKD81qTG8XNgoZ1VsgcELbRBKTGVnErrP74_lMKEAjPIS-7A-PRpdFkP9wlLNi-bjZjl6L58VXv1t9Y5ruCpD_8HnndGvia5MScFLFv4LZH2yYP8VGjJdjpW8z_qL8BBGFLDQgD-nFAwVpetDt2ppv55RR-v6P6ZlFuDM_4c47At5JyYc42dk6tfKoprBQwlhJiMDZuHZEsfFf9L2r-Ej8UDJ9pattv5cYJ1L152YXhKB0MSdNFWs82R9UP8EL-3dd1NpChf1n_wsR49Tq6DtctnzciRyLVYBGmA5LOw">
+    <button class="getLinkedin" data-actions="getLinkedinProfile">
+      Click getProfile
+    </button>
+  </form>
+</html>
+<div data-template_id="getLinkedinProfile" >
+  <div class="template card card margin:10px " 
+    data-value="{{data._id}}" 
+    data-template_id="getLinkedinProfile" 
+    data-render-array="data">
+        <div class="display:flex justify-content:space-between align-items:center width:100%">
+          <div class="display:flex">
+            <div class="display:flex align-items:center">
+              <span class="icon status font-size:20px margin-right:10px"></span>
+            </div>
+            <div class="display:flex align-items:center  flex-wrap:wrap">
+              <img class="margin-right:10px" src="https://media-exp1.licdn.com/dms/image/{{data.profilePicture.displayImage}}//profile-framedphoto-shrink_100_100/0?e=1603134000&amp;v=beta&amp;t=3VGzCDg6aZYgvTiEkIi2WIvBslfCE1FdF3SmWgWzzcc" />
+              <h3 class="margin-right:10px" value="{{data.id}}">ID</h3>
+              <h3 class="margin-right:10px" value="{{data.firstName.localized.ru_RU}}">First Name</h3>
+              <h3 class="margin-right:10px" value="{{data.lastName.localized.ru_RU}}">Last Name</h3>
+              <h3 class="margin-right:10px" value="{{data.firstName.preferredLocale.country}}">Country</h3>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+
+<script>
+  var config = {
+    apiKey: "c2b08663-06e3-440c-ef6f-13978b42883a",
+    securityKey: "f26baf68-e3a9-45fc-effe-502e47116265",
+    organization_Id: "5de0387b12e200ea63204d6c",
+    host: "52.203.210.252:8081",
+  };
+</script>
+
+<!--CoCreateJS-->
+<script src="https://server.cocreate.app/js/CoCreate.min.js"></script>
+
+<!--CoCreate Plugins-->
+<script src="https://server.cocreate.app/js/CoCreate-api.js"></script>
+
+<script src="../src/CoCreate-linkedin.js"></script>
