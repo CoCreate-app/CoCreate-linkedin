@@ -37,7 +37,7 @@ const CoCreateLinkedin = {
 	
 };
 
-CoCreate.api.init({
+api.init({
 	name: CoCreateLinkedin.id, 
 	module:	CoCreateLinkedin,
 });
