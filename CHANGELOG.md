@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.1...v1.0.2) (2021-04-19)
+
+
+### Bug Fixes
+
+* ci and build process ([dcac216](https://github.com/CoCreate-app/CoCreate-linkedin/commit/dcac21634cff1e62a9a2929788954795471ebc11))
+* npm publish and cdn deployment ([d35af1d](https://github.com/CoCreate-app/CoCreate-linkedin/commit/d35af1d7e25e06b3756acc55a7d65bfaaffd486a))
+
 ## [1.0.1](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.0...v1.0.1) (2021-03-29)
 
 
