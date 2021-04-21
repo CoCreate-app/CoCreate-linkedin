@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.2...v1.0.3) (2021-04-21)
+
+
+### Bug Fixes
+
+* One package for server and client ([7db3578](https://github.com/CoCreate-app/CoCreate-linkedin/commit/7db35784f8d497287088dbf091b4c9812f7298ce))
+
 ## [1.0.2](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.1...v1.0.2) (2021-04-19)
 
 
