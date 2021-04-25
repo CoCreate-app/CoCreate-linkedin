@@ -22,6 +22,7 @@ class CoCreateLinkedin {
     }
 
     async sendLinkedin(socket, data) {
+        console.log(" sendLinkedin ")
         const type = data['type'];
         const params = data['data'];
         

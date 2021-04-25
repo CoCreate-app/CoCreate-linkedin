@@ -62,6 +62,7 @@
   "dependencies": {
     "@cocreate/api": "^1.0.7",
     "@cocreate/docs": "^1.0.3",
+    "axios": "^0.21.1",
     "node-linkedin-v2": "^0.0.8",
     "passport-linkedin-oauth2": "^2.0.0"
   }

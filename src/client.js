@@ -1,3 +1,4 @@
+import api from '@cocreate/api'
 const CoCreateLinkedin = {
 	id: 'linkedin',
 	actions: [
@@ -6,7 +7,11 @@ const CoCreateLinkedin = {
 		'deletePost'
 	],
 	
-	action_getLinkedinProfile: function(element, data) {
+	 render_getLinkedinProfile: function(data) {
+		console.log(data)
+	},
+	
+/*	action_getLinkedinProfile: function(element, data) {
 	    let container = document;
 		let form_data = CoCreate.api.getFormData('linkedin', 'getLinkedinProfile',  container);
 		console.log(form_data);
@@ -34,7 +39,7 @@ const CoCreateLinkedin = {
 		CoCreate.api.send('linkedin', 'deletePost', form_data);
 		console.log(data);
 	}
-	
+*/	
 };
 
 api.init({
