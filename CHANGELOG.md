@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.6...v1.0.7) (2021-04-27)
+
+
+### Bug Fixes
+
+* add host in docs ([9195304](https://github.com/CoCreate-app/CoCreate-linkedin/commit/9195304d3097a6b5559b6064ca1d6341b699cac5))
+
 ## [1.0.6](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.5...v1.0.6) (2021-04-27)
 
 
