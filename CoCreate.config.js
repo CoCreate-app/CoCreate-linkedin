@@ -1,47 +1,37 @@
 module.exports = {
-    config: {
-        apiKey: "c2b08663-06e3-440c-ef6f-13978b42883a",
-        securityKey: "f26baf68-e3a9-45fc-effe-502e47116265",
-        organization_Id: "5de0387b12e200ea63204d6c",
-        host: "server.cocreate.app:8088"
-    },
- 
-    sources: [{
-            path: "./docs/index.html",
-            collection: "files",
-            document_id: "6028476471064611a678a1b3",
-            key: "html",
-            data:{
-                name: "Linkedin Doc",
-            }
-        },
-    ],
-   
-    crud: [{
-            collection: "routes",
-            document_id: "6028476471064611a678a1b2",
-            data:{
-                collection: "files",
-                document_id: "6028476471064611a678a1b3",
-                name: "html",
-                domains: ["cocreate.app", "server.cocreate.app", "ws.cocreate.app"],
-                route: "/docs/linkedin",
+	"config": {
+		"apiKey": "c2b08663-06e3-440c-ef6f-13978b42883a",
+		"securityKey": "f26baf68-e3a9-45fc-effe-502e47116265",
+		"organization_Id": "5de0387b12e200ea63204d6c",
+		"host": "server.cocreate.app:8088"
+	},
+
+    "sources": [{
+            "path": "./docs/index.html",
+            "collection": "files",
+            "document_id": "6028476471064611a678a1b3",
+            "key": "html",
+            "data":{
+                "name": "linkedin Doc",
+                "domains": ["cocreate.app", "server.cocreate.app", "ws.cocreate.app"],
+                "path": "/docs/linkedin"
             }
         }
     ],
-    
-    extract: {
-        directory: "./src/",
-        extensions: [
-            "js",
-            "css",
-            "html"
-        ],
-        ignores: [
-            "node_modules",
-            "vendor",
-            "bower_components",
-            "archive"
-        ],
-    }
+
+	"extract": {
+		"directory": "./src/",
+		"extensions": [
+			"js",
+			"css",
+			"html"
+		],
+		"ignores": [
+			"node_modules",
+			"vendor",
+			"bower_components",
+			"archive"
+		]
+	}
 }
+
