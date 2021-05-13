@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.7...v1.0.8) (2021-05-08)
+
+
+### Bug Fixes
+
+* add css auto parse and save to docs. ([d95e43f](https://github.com/CoCreate-app/CoCreate-linkedin/commit/d95e43fdc8db34510188adb5caa69f623eea5f72))
+
 ## [1.0.7](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.6...v1.0.7) (2021-04-27)
 
 
