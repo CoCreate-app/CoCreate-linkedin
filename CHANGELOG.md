@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.9...v1.0.10) (2021-06-16)
+
+
+### Bug Fixes
+
+* added header for seo ([f3d3205](https://github.com/CoCreate-app/CoCreate-linkedin/commit/f3d3205a9f3e4c45f86b02a012974898e6446e31))
+
 ## [1.0.9](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.8...v1.0.9) (2021-05-22)
 
 
