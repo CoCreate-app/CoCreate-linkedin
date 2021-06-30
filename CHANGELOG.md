@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.13...v1.0.14) (2021-06-30)
+
+
+### Bug Fixes
+
+* automated and manual workflows ([ebd34a0](https://github.com/CoCreate-app/CoCreate-linkedin/commit/ebd34a03d2fe36759e76c4e7adf3a1084aa98976))
+
 ## [1.0.13](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.12...v1.0.13) (2021-06-25)
 
 
