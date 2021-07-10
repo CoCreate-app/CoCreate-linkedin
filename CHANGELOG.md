@@ -1,3 +1,10 @@
+## [1.0.16](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.15...v1.0.16) (2021-07-10)
+
+
+### Bug Fixes
+
+* gitignore all logs ([ac14106](https://github.com/CoCreate-app/CoCreate-linkedin/commit/ac141066679ab58b0f4fe57d46d36ac8f135e26c))
+
 ## [1.0.15](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.14...v1.0.15) (2021-06-30)
 
 
