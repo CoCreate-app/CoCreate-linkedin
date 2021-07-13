@@ -1,3 +1,11 @@
+## [1.0.17](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.16...v1.0.17) (2021-07-13)
+
+
+### Bug Fixes
+
+* add yarn lockfile to git ignore ([90e810c](https://github.com/CoCreate-app/CoCreate-linkedin/commit/90e810cd9f5fee115a6fc51c4916b766bca1e6a4))
+* remove yarn.lock ([2186592](https://github.com/CoCreate-app/CoCreate-linkedin/commit/2186592433b67aac458b2d3397eb07cc0705c2d2))
+
 ## [1.0.16](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.15...v1.0.16) (2021-07-10)
 
 
