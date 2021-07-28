@@ -13,17 +13,17 @@
     LinkedinId: <input data-linkedin="publishPost.id" value="SDPZFJoPpM">
     Title: <input data-linkedin="publishPost.title" value="Title1">
     Text: <input type="textarea" data-linkedin="publishPost.content" value="Hello World! This is my first Share on LinkedIn!">
-    <button data-actions="publishPost">
+    <button actions="publishPost">
       Post Publish
     </button>
     PostId: <input type="text" data-linkedin="deletePost" value="urn:li:activity:6723751141231902720"/>
-    <button data-actions="deletePost">Post Delete</button>
+    <button actions="deletePost">Post Delete</button>
   </form>
 </html>
-<div data-template_id="publishPost" >
+<div template_id="publishPost" >
   <div class="template card card margin:10px " 
     data-value="{{data._id}}" 
-    data-template_id="publishPost" 
+    template_id="publishPost" 
     data-render-array="data">
         <div class="display:flex justify-content:space-between align-items:center width:100%">
           <div class="display:flex">
@@ -36,7 +36,7 @@
                 PostId:  <input class="margin-right:10px" data-linkedin="deletePost.id" value="{{data.activity}}">
                 Subject: <input class="margin-right:10px" value="{{data.subject}}">
                 Text: <input class="margin-right:10px" value="{{data.text.text}}">
-                <button data-actions="deletePost">Post Delete</button>
+                <button actions="deletePost">Post Delete</button>
               </div>
             </form>
           </div>
@@ -44,10 +44,10 @@
   </div>
 </div>
 
-<div data-template_id = "deletePost">
+<div template_id = "deletePost">
   <div class="template card card margin:10px " 
     data-value="{{data._id}}" 
-    data-template_id="publishPost" 
+    template_id="publishPost" 
     data-render-array="data">
     <h3 class="margin-right:10px" value="{{data.status}}">Delete Status</h3>
   </div>
