@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.19...v1.1.0) (2021-07-28)
+
+
+### Features
+
+* add new is{attribute} system and remove data- from attributtes ([90db138](https://github.com/CoCreate-app/CoCreate-linkedin/commit/90db138b9044b856249071c67031e0ca1ea4e8c9))
+
 ## [1.0.19](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.18...v1.0.19) (2021-07-17)
 
 
