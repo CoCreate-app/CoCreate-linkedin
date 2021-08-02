@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.1.0...v1.1.1) (2021-08-02)
+
+
+### Bug Fixes
+
+* remove data- from attributes ([4eb067f](https://github.com/CoCreate-app/CoCreate-linkedin/commit/4eb067f5158c1dca6efdee01be568d106c10c21d))
+* remove data- from fetch, pass and filter ([ce78e6d](https://github.com/CoCreate-app/CoCreate-linkedin/commit/ce78e6dfb31d4ae07bb9e1bcf63f287941ecd798))
+* update data-fullscreen to fullscreen ([e2453e2](https://github.com/CoCreate-app/CoCreate-linkedin/commit/e2453e236124bac345c593a7a308ae96c9d3d435))
+
 # [1.1.0](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.0.19...v1.1.0) (2021-07-28)
 
 
