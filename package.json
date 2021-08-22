@@ -60,7 +60,7 @@
     "webpack-log": "^3.0.1"
   },
   "dependencies": {
-    "@cocreate/api": "^1.0.23",
+    "@cocreate/api": "^1.1.2",
     "@cocreate/docs": "^1.1.14",
     "axios": "^0.21.1",
     "node-linkedin-v2": "^0.0.8",
