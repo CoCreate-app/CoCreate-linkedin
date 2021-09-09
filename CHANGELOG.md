@@ -1,3 +1,10 @@
+## [1.1.11](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.1.10...v1.1.11) (2021-09-09)
+
+
+### Bug Fixes
+
+* CoCreate.config directory, path, name and  public ([d3ee090](https://github.com/CoCreate-app/CoCreate-linkedin/commit/d3ee0907eee20695c2971c3426e6040e4a0dfaab))
+
 ## [1.1.10](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.1.9...v1.1.10) (2021-09-08)
 
 
