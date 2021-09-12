@@ -1,3 +1,10 @@
+## [1.1.15](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.1.14...v1.1.15) (2021-09-12)
+
+
+### Bug Fixes
+
+* update sidenav to use resize and toggle ([a12c1b8](https://github.com/CoCreate-app/CoCreate-linkedin/commit/a12c1b85d785ba02ea843ec81e6fe7f73beed0c2))
+
 ## [1.1.14](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.1.13...v1.1.14) (2021-09-09)
 
 
