@@ -1,3 +1,10 @@
+## [1.1.31](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.1.30...v1.1.31) (2021-10-16)
+
+
+### Bug Fixes
+
+* update socket package to fix bug in docs ([f57137a](https://github.com/CoCreate-app/CoCreate-linkedin/commit/f57137a2abe9f62997a93679d964185c7bbab0df))
+
 ## [1.1.30](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.1.29...v1.1.30) (2021-10-15)
 
 
