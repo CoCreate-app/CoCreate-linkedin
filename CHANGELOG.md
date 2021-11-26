@@ -1,3 +1,10 @@
+## [1.1.46](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.1.45...v1.1.46) (2021-11-26)
+
+
+### Bug Fixes
+
+* docs sidenav width ([f095752](https://github.com/CoCreate-app/CoCreate-linkedin/commit/f0957522d0a4fc6df38f6710382f7d318aa295b8))
+
 ## [1.1.45](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.1.44...v1.1.45) (2021-11-26)
 
 
