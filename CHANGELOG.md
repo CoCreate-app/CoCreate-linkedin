@@ -1,3 +1,10 @@
+## [1.1.53](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.1.52...v1.1.53) (2022-01-01)
+
+
+### Bug Fixes
+
+* get-value attribute value now supports a selector added # to all values currently in get-value attributes ([0c74ff2](https://github.com/CoCreate-app/CoCreate-linkedin/commit/0c74ff2ef0b9307555dca2ac3f2403ff85b28af0))
+
 ## [1.1.52](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.1.51...v1.1.52) (2022-01-01)
 
 
