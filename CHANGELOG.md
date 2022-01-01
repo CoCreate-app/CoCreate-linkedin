@@ -1,3 +1,10 @@
+## [1.1.52](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.1.51...v1.1.52) (2022-01-01)
+
+
+### Bug Fixes
+
+* removed data- from attributes ([7617b7e](https://github.com/CoCreate-app/CoCreate-linkedin/commit/7617b7e7f8af524ecd42237d4aea7ac1506a5ec9))
+
 ## [1.1.51](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.1.50...v1.1.51) (2021-12-15)
 
 
