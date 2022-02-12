@@ -28,11 +28,11 @@ class CoCreateLinkedin {
         
         try{
                 let enviroment = typeof params['enviroment'] != 'undefined' ? params['enviroment'] : this.enviroment;
-                let org_row = await api.getOrg(params,this.module_id);
-                this.LINKEDIN_CLIENT_ID = org_row['apis.'+this.module_id+'.'+enviroment+'.LINKEDIN_CLIENT_ID'];
-                this.LINKEDIN_CLIENT_SECRET = org_row['apis.'+this.module_id+'.'+enviroment+'.LINKEDIN_CLIENT_SECRET'];
-                this.CALL_BACK_URL = org_row['apis.'+this.module_id+'.'+enviroment+'.CALL_BACK_URL'];
-                this.ACCESS_TOKEN = org_row['apis.'+this.module_id+'.'+enviroment+'.ACCESS_TOKEN'];
+                let org = await api.getOrg(params,this.module_id);
+                this.LINKEDIN_CLIENT_ID = org['apis.'+this.module_id+'.'+enviroment+'.LINKEDIN_CLIENT_ID'];
+                this.LINKEDIN_CLIENT_SECRET = org['apis.'+this.module_id+'.'+enviroment+'.LINKEDIN_CLIENT_SECRET'];
+                this.CALL_BACK_URL = org['apis.'+this.module_id+'.'+enviroment+'.CALL_BACK_URL'];
+                this.ACCESS_TOKEN = org['apis.'+this.module_id+'.'+enviroment+'.ACCESS_TOKEN'];
       	 }catch(e){
       	   	console.log(this.module_id+" : Error Connect to api",e)
       	   	return false;
