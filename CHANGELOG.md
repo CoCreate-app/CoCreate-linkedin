@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.1.57...v1.2.0) (2022-02-16)
+
+
+### Bug Fixes
+
+* update param name org_row to org ([73cf318](https://github.com/CoCreate-app/CoCreate-linkedin/commit/73cf318bc1ea0ea45971966fc3c95275e140b268))
+
+
+### Features
+
+* define request and response functions, if functions are not deifne defualt functions exist that will request and render results. Reduced and improved code quality ([67507f4](https://github.com/CoCreate-app/CoCreate-linkedin/commit/67507f47cc38aa667e05def886dc140fb3575e9b))
+
 ## [1.1.57](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.1.56...v1.1.57) (2022-02-10)
 
 
