@@ -8,7 +8,6 @@ class CoCreateLinkedin {
         this.wsManager = wsManager;
         this.moduleName = "linkedin";
         this.init();
-        this.enviroment = 'test';
         this.LINKEDIN_CLIENT_ID = null;
         this.LINKEDIN_CLIENT_SECRET = null;
         this.CALL_BACK_URL = null;
@@ -22,38 +21,60 @@ class CoCreateLinkedin {
     }
 
     async sendLinkedin(socket, data) {
-        console.log(" sendLinkedin ")
-        const type = data['type'];
-        const params = data['data'];
-        
-        try{
-                let enviroment = typeof params['enviroment'] != 'undefined' ? params['enviroment'] : this.enviroment;
-                let org = await api.getOrg(params,this.moduleName);
-                this.LINKEDIN_CLIENT_ID = org['apis.'+this.moduleName+'.'+enviroment+'.LINKEDIN_CLIENT_ID'];
-                this.LINKEDIN_CLIENT_SECRET = org['apis.'+this.moduleName+'.'+enviroment+'.LINKEDIN_CLIENT_SECRET'];
-                this.CALL_BACK_URL = org['apis.'+this.moduleName+'.'+enviroment+'.CALL_BACK_URL'];
-                this.ACCESS_TOKEN = org['apis.'+this.moduleName+'.'+enviroment+'.ACCESS_TOKEN'];
-      	 }catch(e){
-      	   	console.log(this.moduleName+" : Error Connect to api",e)
-      	   	return false;
-      	 }
+		let params = data['data'];
+		let environment;
+		let action = data['action'];
+        let linkedin = false;
+
+		try {
+			let org = await api.getOrg(data, this.moduleName);
+			if (params.environment){
+				environment = params['environment'];
+				delete params['environment'];  
+			} else {
+			  	environment = org.apis[this.moduleName].environment;
+			}
+            this.LINKEDIN_CLIENT_ID = org.apis[this.moduleName][environment].LINKEDIN_CLIENT_ID'];
+            this.LINKEDIN_CLIENT_SECRET = org.apis[this.moduleName][environment].LINKEDIN_CLIENT_SECRET'];
+            this.CALL_BACK_URL = org.apis[this.moduleName][environment].CALL_BACK_URL'];
+            this.ACCESS_TOKEN = org.apis[this.moduleName][environment].ACCESS_TOKEN'];
+            linkedin = new LinkedInRestClient(this.LINKEDIN_CLIENT_ID, this.LINKEDIN_CLIENT_SECRET, this.CALL_BACK_URL);
+        }catch(e){
+            console.log(this.moduleName+" : Error Connect to api",e)
+            return false;
+        }
       
-        const linkedinRes = new LinkedInRestClient(this.LINKEDIN_CLIENT_ID, this.LINKEDIN_CLIENT_SECRET, this.CALL_BACK_URL);
-        switch (type) {
-            case 'getLinkedinProfile':
-                this.getLinkedinProfile(socket, type, linkedinRes);
-                break;
-            case 'publishPost':
-                this.publishPost(socket, type, data, linkedinRes);
-                break;
-            case 'deletePost':
-                this.deletePost(socket, type, data, linkedinRes);
-                break;
+        try {
+            let response
+            switch (action) {
+                case 'getLinkedinProfile':
+                    response = this.getLinkedinProfile(socket, action, linkedin);
+                    break;
+                case 'publishPost':
+                    response = this.publishPost(socket, action, data, linkedin);
+                    break;
+                case 'deletePost':
+                    response = this.deletePost(socket, action, data, linkedin);
+                    break;
+            }
+            this.wsManager.send(socket, this.moduleName, { action, response })
+    
+        } catch (error) {
+          this.handleError(socket, action, error)
         }
     }
 
-    async getLinkedinProfile(socket, type, linkedinRes) {
-        const profile = await linkedinRes.getCurrentMemberProfile(['id', 'firstName', 'lastName', 'profilePicture'], this.ACCESS_TOKEN);
+    handleError(socket, action, error) {
+        const response = {
+            'object': 'error',
+            'data': error || error.response || error.response.data || error.response.body || error.message || error,
+        };
+        this.wsManager.send(socket, this.moduleName, { action, response })
+    }
+    
+
+    async getLinkedinProfile() {
+        const profile = await linkedin.getCurrentMemberProfile(['id', 'firstName', 'lastName', 'profilePicture'], this.ACCESS_TOKEN);
         const imageInfo = profile.profilePicture.displayImage;
         const imageInfoArr = imageInfo.split(":");
         profile.profilePicture.displayImage = imageInfoArr[3];
@@ -61,10 +82,10 @@ class CoCreateLinkedin {
             'object': 'list',
             'data': [profile],
         };
-        api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName)
+        return response
     }
 
-    async publishPost(socket, type, data, linkedinRes) {
+    async publishPost(data) {
         const reqData = data.data;
         const linkedinId = reqData.id;
         const postData = {
@@ -90,15 +111,15 @@ class CoCreateLinkedin {
                 text: reqData.content
             }
         };
-        const responseData = await linkedinRes.publishContent(linkedinId, postData, this.ACCESS_TOKEN);
+        const responseData = await linkedin.publishContent(linkedinId, postData, this.ACCESS_TOKEN);
         const response = {
             'object': 'list',
             'data': [responseData],
         };
-        api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
+        return response
     }
     
-    async updatePost(socket, type, data, linkedinRes) {
+    async updatePost(data) {
         const reqData = data.data;
         const linkedinId = reqData.id;
         const updateData = {
@@ -111,19 +132,19 @@ class CoCreateLinkedin {
                 }
             }
         };
-        const responseData = await linkedinRes.updatePost(linkedinId, updateData, this.ACCESS_TOKEN);
-        api.send_response(this.wsManager, socket, { "type": type, "response": responseData }, this.moduleName);
+        const responseData = await linkedin.updatePost(linkedinId, updateData, this.ACCESS_TOKEN);
+        return response
     }
     
-    async deletePost(socket, type, data, linkedinRes) {
+    async deletePost(data) {
         const reqData = data.data;
         const linkedinId = reqData.id;
-        const responseData = await linkedinRes.deletePost(linkedinId, this.ACCESS_TOKEN);
+        const responseData = await linkedin.deletePost(linkedinId, this.ACCESS_TOKEN);
         const response = {
             'object': 'list',
             'data': [{'status':responseData}],
         };
-        api.send_response(this.wsManager, socket, { "type": type, "response": response }, this.moduleName);
+        return response
     }
 
 }
