@@ -1,3 +1,11 @@
+## [1.2.2](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.1...v1.2.2) (2022-02-24)
+
+
+### Bug Fixes
+
+* CoCreate.config replace CoCreate.app with * ([f25288b](https://github.com/CoCreate-app/CoCreate-linkedin/commit/f25288bf0021a2f6c920b4b48c92ce76adb49b43))
+* get environemt and keys using dot notation ([54915fb](https://github.com/CoCreate-app/CoCreate-linkedin/commit/54915fb83b197a0fe14d228f657ac0c219029039))
+
 ## [1.2.1](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.0...v1.2.1) (2022-02-16)
 
 
