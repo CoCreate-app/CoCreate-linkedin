@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.2...v1.2.3) (2022-02-27)
+
+
+### Bug Fixes
+
+* update param  module to component ([4bfae35](https://github.com/CoCreate-app/CoCreate-linkedin/commit/4bfae3522484e926c3071df2ca453ad14fcc325d))
+
 ## [1.2.2](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.1...v1.2.2) (2022-02-24)
 
 
