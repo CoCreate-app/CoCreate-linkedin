@@ -12,5 +12,5 @@ const CoCreateLinkedin = {
 
 api.init({
 	name: CoCreateLinkedin.name, 
-	module:	CoCreateLinkedin,
+	component:	CoCreateLinkedin,
 });

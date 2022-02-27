@@ -6,7 +6,7 @@ class CoCreateLinkedin {
 
     constructor(wsManager) {
         this.wsManager = wsManager;
-        this.moduleName = "linkedin";
+        this.name = "linkedin";
         this.init();
         this.LINKEDIN_CLIENT_ID = null;
         this.LINKEDIN_CLIENT_SECRET = null;
@@ -16,7 +16,7 @@ class CoCreateLinkedin {
 
     init() {
         if (this.wsManager) {
-            this.wsManager.on(this.moduleName, (socket, data) => this.sendLinkedin(socket, data));
+            this.wsManager.on(this.name, (socket, data) => this.sendLinkedin(socket, data));
         }
     }
 
@@ -27,20 +27,20 @@ class CoCreateLinkedin {
         let linkedin = false;
 
 		try {
-			let org = await api.getOrg(data, this.moduleName);
+			let org = await api.getOrg(data, this.name);
 			if (params.environment){
 				environment = params['environment'];
 				delete params['environment'];  
 			} else {
-			  	environment = org.apis[this.moduleName].environment;
+			  	environment = org.apis[this.name].environment;
 			}
-            this.LINKEDIN_CLIENT_ID = org.apis[this.moduleName][environment].LINKEDIN_CLIENT_ID'];
-            this.LINKEDIN_CLIENT_SECRET = org.apis[this.moduleName][environment].LINKEDIN_CLIENT_SECRET'];
-            this.CALL_BACK_URL = org.apis[this.moduleName][environment].CALL_BACK_URL'];
-            this.ACCESS_TOKEN = org.apis[this.moduleName][environment].ACCESS_TOKEN'];
+            this.LINKEDIN_CLIENT_ID = org.apis[this.name][environment].LINKEDIN_CLIENT_ID'];
+            this.LINKEDIN_CLIENT_SECRET = org.apis[this.name][environment].LINKEDIN_CLIENT_SECRET'];
+            this.CALL_BACK_URL = org.apis[this.name][environment].CALL_BACK_URL'];
+            this.ACCESS_TOKEN = org.apis[this.name][environment].ACCESS_TOKEN'];
             linkedin = new LinkedInRestClient(this.LINKEDIN_CLIENT_ID, this.LINKEDIN_CLIENT_SECRET, this.CALL_BACK_URL);
         }catch(e){
-            console.log(this.moduleName+" : Error Connect to api",e)
+            console.log(this.name+" : Error Connect to api",e)
             return false;
         }
       
@@ -57,7 +57,7 @@ class CoCreateLinkedin {
                     response = this.deletePost(socket, action, data, linkedin);
                     break;
             }
-            this.wsManager.send(socket, this.moduleName, { action, response })
+            this.wsManager.send(socket, this.name, { action, response })
     
         } catch (error) {
           this.handleError(socket, action, error)
@@ -69,7 +69,7 @@ class CoCreateLinkedin {
             'object': 'error',
             'data': error || error.response || error.response.data || error.response.body || error.message || error,
         };
-        this.wsManager.send(socket, this.moduleName, { action, response })
+        this.wsManager.send(socket, this.name, { action, response })
     }
     
 
