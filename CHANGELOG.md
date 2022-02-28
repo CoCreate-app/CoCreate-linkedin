@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.3...v1.2.4) (2022-02-28)
+
+
+### Bug Fixes
+
+* fix typo ([3f34ee0](https://github.com/CoCreate-app/CoCreate-linkedin/commit/3f34ee0f94f5cb227512bc5f6ed86a8721ff7a43))
+
 ## [1.2.3](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.2...v1.2.3) (2022-02-27)
 
 
