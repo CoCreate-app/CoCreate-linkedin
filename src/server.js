@@ -34,10 +34,10 @@ class CoCreateLinkedin {
 			} else {
 			  	environment = org.apis[this.name].environment;
 			}
-            this.LINKEDIN_CLIENT_ID = org.apis[this.name][environment].LINKEDIN_CLIENT_ID'];
-            this.LINKEDIN_CLIENT_SECRET = org.apis[this.name][environment].LINKEDIN_CLIENT_SECRET'];
-            this.CALL_BACK_URL = org.apis[this.name][environment].CALL_BACK_URL'];
-            this.ACCESS_TOKEN = org.apis[this.name][environment].ACCESS_TOKEN'];
+            this.LINKEDIN_CLIENT_ID = org.apis[this.name][environment].LINKEDIN_CLIENT_ID;
+            this.LINKEDIN_CLIENT_SECRET = org.apis[this.name][environment].LINKEDIN_CLIENT_SECRET;
+            this.CALL_BACK_URL = org.apis[this.name][environment].CALL_BACK_URL;
+            this.ACCESS_TOKEN = org.apis[this.name][environment].ACCESS_TOKEN;
             linkedin = new LinkedInRestClient(this.LINKEDIN_CLIENT_ID, this.LINKEDIN_CLIENT_SECRET, this.CALL_BACK_URL);
         }catch(e){
             console.log(this.name+" : Error Connect to api",e)
