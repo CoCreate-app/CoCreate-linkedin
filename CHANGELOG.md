@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.4...v1.2.5) (2022-05-06)
+
+
+### Bug Fixes
+
+* update config organization_Id to organization_id ([047bcd5](https://github.com/CoCreate-app/CoCreate-linkedin/commit/047bcd52a8cf74e70602ca55d98214ef8f7bed44))
+
 ## [1.2.4](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.3...v1.2.4) (2022-02-28)
 
 
