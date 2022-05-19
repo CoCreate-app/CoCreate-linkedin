@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.5...v1.2.6) (2022-05-19)
+
+
+### Bug Fixes
+
+* update document_id on link index.css ([730778e](https://github.com/CoCreate-app/CoCreate-linkedin/commit/730778ef4931933bd8621e4543fe354d0df025b0))
+
 ## [1.2.5](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.4...v1.2.5) (2022-05-06)
 
 
