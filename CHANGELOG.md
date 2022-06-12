@@ -1,3 +1,11 @@
+## [1.2.8](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.7...v1.2.8) (2022-06-12)
+
+
+### Bug Fixes
+
+* update dependencies ([e159c97](https://github.com/CoCreate-app/CoCreate-linkedin/commit/e159c97228be95a92a8b17241c133cdb929e47e2))
+* update docs css document_id ([3a1d0b7](https://github.com/CoCreate-app/CoCreate-linkedin/commit/3a1d0b7d983ff6799e5b0ed773139dfb7a6dc0c5))
+
 ## [1.2.7](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.6...v1.2.7) (2022-05-23)
 
 
