@@ -1,3 +1,10 @@
+## [1.2.11](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.10...v1.2.11) (2022-09-29)
+
+
+### Bug Fixes
+
+* config renameed to CoCreateConfig ([6fe3200](https://github.com/CoCreate-app/CoCreate-linkedin/commit/6fe3200dd8e2b2da37f70735692717e8ce5cf7e3))
+
 ## [1.2.10](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.9...v1.2.10) (2022-09-01)
 
 
