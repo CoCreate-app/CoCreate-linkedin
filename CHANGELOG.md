@@ -1,3 +1,10 @@
+## [1.2.18](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.17...v1.2.18) (2022-10-02)
+
+
+### Bug Fixes
+
+* bump @cocreate/hosting and @cocreate/socket-client ([bf06730](https://github.com/CoCreate-app/CoCreate-linkedin/commit/bf067301dc68b442129c0b2066e64bf7a8d84537))
+
 ## [1.2.17](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.16...v1.2.17) (2022-10-01)
 
 
