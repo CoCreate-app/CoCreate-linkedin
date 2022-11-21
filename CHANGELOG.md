@@ -1,3 +1,10 @@
+## [1.2.22](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.21...v1.2.22) (2022-11-21)
+
+
+### Bug Fixes
+
+* replaced document_id with document._id ([59e058d](https://github.com/CoCreate-app/CoCreate-linkedin/commit/59e058d15c3fef21b38b803be6631d3d328ba6f0))
+
 ## [1.2.21](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.20...v1.2.21) (2022-11-21)
 
 
