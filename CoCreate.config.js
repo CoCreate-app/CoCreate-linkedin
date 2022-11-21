@@ -10,7 +10,7 @@ module.exports = {
             "collection": "files",
             "document_id": "6028476471064611a678a1b3",
             "key": "src",
-            "data":{
+            "document": {
                 "name": "index.html",
                 "path": "/docs/linkedin/index.html",
                 "domains": [
