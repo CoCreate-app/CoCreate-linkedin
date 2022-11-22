@@ -1,3 +1,10 @@
+## [1.2.24](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.23...v1.2.24) (2022-11-22)
+
+
+### Bug Fixes
+
+* apply src: {{source}} to CoCreate.config ([9b3c3a2](https://github.com/CoCreate-app/CoCreate-linkedin/commit/9b3c3a2a30ccafb05ab7705b966c2a23669b8181))
+
 ## [1.2.23](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.22...v1.2.23) (2022-11-21)
 
 
