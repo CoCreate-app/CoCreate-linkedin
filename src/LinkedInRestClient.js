@@ -178,7 +178,7 @@ module.exports = class LinkedInRestClient {
      * @upadate data
      */
     async updateProfile(linkedinId,updateData,access_token) {
-        if(!linkedinId) throw new Error('Code parameter cannot be empty');
+        if (!linkedinId) throw new Error('Code parameter cannot be empty');
         
         const url = `${this.url}/person/id=${linkedinId}`;
         
@@ -188,7 +188,7 @@ module.exports = class LinkedInRestClient {
      * Pubish Post
     */
     async publishContent(linkedinId,postData,access_token){
-        if(!linkedinId) throw new Error('Code parameter cannot be empty');
+        if (!linkedinId) throw new Error('Code parameter cannot be empty');
         
         const url = `${this.url}/shares`;
         
@@ -199,7 +199,7 @@ module.exports = class LinkedInRestClient {
      * Delete Post
     */ 
     async deletePost(linkedinId,access_token){
-        if(!linkedinId) throw new Error('Code parameter cannot be empty');
+        if (!linkedinId) throw new Error('Code parameter cannot be empty');
         const url = `${this.url}/shares/urn:li:share:${linkedinId}`;
         const res = await axios.delete(
                 url,
@@ -216,7 +216,7 @@ module.exports = class LinkedInRestClient {
      * Update Post
     */ 
     async updatePost(linkedinId,updateData,access_token){
-        if(!linkedinId) throw new Error('Code parameter cannot be empty');
+        if (!linkedinId) throw new Error('Code parameter cannot be empty');
         
         const url = `${this.url}/shares/{urn:li:share:${linkedinId}}`;
         console.log(url);
