@@ -20,9 +20,7 @@
     "html5-framework",
     "javascript-framework"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "publishConfig": { "access": "public" },
   "scripts": {
     "start": "npx webpack --config webpack.config.js",
     "build": "NODE_ENV=production npx webpack --config webpack.config.js",
@@ -35,9 +33,7 @@
   },
   "author": "CoCreate LLC",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CoCreate-app/CoCreate-linkedin/issues"
-  },
+  "bugs": { "url": "https://github.com/CoCreate-app/CoCreate-linkedin/issues" },
   "homepage": "https://cocreate.app/docs/linkedin",
   "funding": {
     "type": "GitHub Sponsors ❤",
@@ -60,8 +56,8 @@
     "webpack-log": "^3.0.1"
   },
   "dependencies": {
-    "@cocreate/api": "^1.5.8",
-    "@cocreate/docs": "^1.4.3",
+    "@cocreate/api": "^1.5.9",
+    "@cocreate/docs": "^1.4.4",
     "axios": "^0.21.1",
     "node-linkedin-v2": "^0.0.8",
     "passport-linkedin-oauth2": "^2.0.0"
