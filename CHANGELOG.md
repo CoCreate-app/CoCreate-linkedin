@@ -1,3 +1,10 @@
+## [1.2.42](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.41...v1.2.42) (2022-12-13)
+
+
+### Bug Fixes
+
+* removed un used devDependencies ([eca02dd](https://github.com/CoCreate-app/CoCreate-linkedin/commit/eca02dd682adecee7dab30d292f4393cef19ab8e))
+
 ## [1.2.41](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.40...v1.2.41) (2022-12-13)
 
 
