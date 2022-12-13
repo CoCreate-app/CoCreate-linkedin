@@ -1,3 +1,10 @@
+## [1.2.41](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.40...v1.2.41) (2022-12-13)
+
+
+### Bug Fixes
+
+* bump dependencies ([5e40fff](https://github.com/CoCreate-app/CoCreate-linkedin/commit/5e40fff66b0a8204109abd19a3214dc191a7ff15))
+
 ## [1.2.40](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.39...v1.2.40) (2022-12-12)
 
 
