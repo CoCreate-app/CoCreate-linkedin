@@ -1,3 +1,10 @@
+## [1.2.43](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.42...v1.2.43) (2022-12-15)
+
+
+### Bug Fixes
+
+* add missing dev dependency style-loader ([7a69fe8](https://github.com/CoCreate-app/CoCreate-linkedin/commit/7a69fe87e1b99515a30f9e8036ad2bac0d248c1f))
+
 ## [1.2.42](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.41...v1.2.42) (2022-12-13)
 
 
