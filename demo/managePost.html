@@ -8,6 +8,7 @@
       }
     </style>
   </head>
+  <body>
   <h1>Profile - Post</h1>
   <form>
     LinkedinId: <input linkedin="publishPost.id" value="SDPZFJoPpM">
@@ -19,53 +20,42 @@
     PostId: <input type="text" linkedin="deletePost" value="urn:li:activity:6723751141231902720"/>
     <button actions="deletePost">Post Delete</button>
   </form>
-</html>
-<div template_id="publishPost" >
-  <div class="template card card margin:10px " 
-    value="{{data._id}}" 
-    template_id="publishPost" 
-    render-array="data">
-        <div class="display:flex justify-content:space-between align-items:center width:100%">
-          <div class="display:flex">
-            <div class="display:flex align-items:center">
-              <span class="icon status font-size:20px margin-right:10px"></span>
-            </div>
-            <form>
-              <div class="display:flex align-items:center  flex-wrap:wrap">
-                OwnerID: <input class="margin-right:10px" value="{{data.owner}}">
-                PostId:  <input class="margin-right:10px" linkedin="deletePost.id" value="{{data.activity}}">
-                Subject: <input class="margin-right:10px" value="{{data.subject}}">
-                Text: <input class="margin-right:10px" value="{{data.text.text}}">
-                <button actions="deletePost">Post Delete</button>
+    <div template_id="publishPost" >
+      <div class="template card card margin:10px " 
+        value="{{data._id}}" 
+        template_id="publishPost" 
+        render-array="data">
+            <div class="display:flex justify-content:space-between align-items:center width:100%">
+              <div class="display:flex">
+                <div class="display:flex align-items:center">
+                  <span class="icon status font-size:20px margin-right:10px"></span>
+                </div>
+                <form>
+                  <div class="display:flex align-items:center  flex-wrap:wrap">
+                    OwnerID: <input class="margin-right:10px" value="{{data.owner}}">
+                    PostId:  <input class="margin-right:10px" linkedin="deletePost.id" value="{{data.activity}}">
+                    Subject: <input class="margin-right:10px" value="{{data.subject}}">
+                    Text: <input class="margin-right:10px" value="{{data.text.text}}">
+                    <button actions="deletePost">Post Delete</button>
+                  </div>
+                </form>
               </div>
-            </form>
-          </div>
-        </div>
-  </div>
-</div>
+            </div>
+      </div>
+    </div>
 
-<div template_id = "deletePost">
-  <div class="template card card margin:10px " 
-    value="{{data._id}}" 
-    template_id="publishPost" 
-    render-array="data">
-    <h3 class="margin-right:10px" value="{{data.status}}">Delete Status</h3>
-  </div>
-</div>
+    <div template_id = "deletePost">
+      <div class="template card card margin:10px " 
+        value="{{data._id}}" 
+        template_id="publishPost" 
+        render-array="data">
+        <h3 class="margin-right:10px" value="{{data.status}}">Delete Status</h3>
+      </div>
+    </div>
 
-<script>
-  var CoCreateConfig = {
-    apiKey: "c2b08663-06e3-440c-ef6f-13978b42883a",
-    securityKey: "f26baf68-e3a9-45fc-effe-502e47116265",
-    organization_id: "5ff747727005da1c272740ab",
-    host: "52.203.210.252:8081",
-  };
-</script>
-
-<!--CoCreateJS-->
-<!--<script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>-->
-
-<!--CoCreate Plugins-->
-
-
-<script src="../dist/CoCreate-linkedin.js"></script>
+      <!--CoCreateJS-->
+      <script src="https://cdn.cocreate.app/latest/CoCreate.min.js" ></script>
+      <!-- <script src="../dist/CoCreate-linkedin.js"></script> -->
+      
+  </body>
+</html>
