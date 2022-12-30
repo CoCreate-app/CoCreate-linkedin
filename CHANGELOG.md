@@ -1,3 +1,10 @@
+## [1.2.52](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.51...v1.2.52) (2022-12-30)
+
+
+### Bug Fixes
+
+* update config sources to use template  braces with entry on src ([3ef1605](https://github.com/CoCreate-app/CoCreate-linkedin/commit/3ef16054a93e0ab59de83970f545fec7613534e7))
+
 ## [1.2.51](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.50...v1.2.51) (2022-12-29)
 
 
