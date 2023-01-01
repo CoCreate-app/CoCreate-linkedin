@@ -1,3 +1,10 @@
+## [1.2.54](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.53...v1.2.54) (2023-01-01)
+
+
+### Bug Fixes
+
+* docs sanbox overflow ([a53b614](https://github.com/CoCreate-app/CoCreate-linkedin/commit/a53b614b44a7e42bf313aeb4d20f004382129c41))
+
 ## [1.2.53](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.52...v1.2.53) (2022-12-31)
 
 
