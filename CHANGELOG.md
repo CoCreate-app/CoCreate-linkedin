@@ -1,3 +1,11 @@
+## [1.2.56](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.55...v1.2.56) (2023-01-06)
+
+
+### Bug Fixes
+
+* bump dependencies, worklow [@v3](https://github.com/v3) ([6fd5ed0](https://github.com/CoCreate-app/CoCreate-linkedin/commit/6fd5ed0431bad4b6006ef3e85965983d42ee628d))
+* edit in github btn styles ([4a13380](https://github.com/CoCreate-app/CoCreate-linkedin/commit/4a133800456f3142b6306cc67b5b09122b3e8aaf))
+
 ## [1.2.55](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.54...v1.2.55) (2023-01-05)
 
 
