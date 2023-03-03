@@ -2,7 +2,7 @@ import api from '@cocreate/api'
 
 const CoCreateLinkedin = {
 	name: 'linkedin',
-	actions: {
+	endPoints: {
 		getLinkedinProfile: {},
 		publishPost: {},
 		updatePost: {},
@@ -10,7 +10,4 @@ const CoCreateLinkedin = {
 	},	
 };
 
-api.init({
-	name: CoCreateLinkedin.name, 
-	component:	CoCreateLinkedin,
-});
+api.init(CoCreateLinkedin);
