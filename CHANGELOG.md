@@ -1,3 +1,10 @@
+## [1.2.66](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.65...v1.2.66) (2023-03-15)
+
+
+### Bug Fixes
+
+* actions object renamed to endPoints ([867673c](https://github.com/CoCreate-app/CoCreate-linkedin/commit/867673cbf8bf7423c378c9daa39083999cd3d705))
+
 ## [1.2.65](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.2.64...v1.2.65) (2023-02-01)
 
 
