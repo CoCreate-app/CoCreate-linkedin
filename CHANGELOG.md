@@ -1,3 +1,10 @@
+## [1.3.4](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.3.3...v1.3.4) (2023-04-11)
+
+
+### Bug Fixes
+
+* renamed domains to hosts ([a0a1121](https://github.com/CoCreate-app/CoCreate-linkedin/commit/a0a1121b4581932c8bf534ee9cff7fd623db893f))
+
 ## [1.3.3](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.3.2...v1.3.3) (2023-03-30)
 
 
