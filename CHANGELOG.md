@@ -1,3 +1,10 @@
+## [1.4.4](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.3...v1.4.4) (2023-04-24)
+
+
+### Bug Fixes
+
+* updated worrkflows to v3 and node version 16 ([dd8ba4a](https://github.com/CoCreate-app/CoCreate-linkedin/commit/dd8ba4adbbbda1658f50edd04db2b9d709905bc8))
+
 ## [1.4.3](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.2...v1.4.3) (2023-04-24)
 
 
