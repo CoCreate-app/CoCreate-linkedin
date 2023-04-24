@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.3.6...v1.4.0) (2023-04-24)
+
+
+### Features
+
+* added pwa manifest ([4c13106](https://github.com/CoCreate-app/CoCreate-linkedin/commit/4c1310620b79996785157ee1c7614160bc73134b))
+
 ## [1.3.6](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.3.5...v1.3.6) (2023-04-11)
 
 
