@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.0...v1.4.1) (2023-04-24)
+
+
+### Bug Fixes
+
+* removed uglifyjs-webpack-plugin ([f911a92](https://github.com/CoCreate-app/CoCreate-linkedin/commit/f911a929254a69252bc3f823b68228ba246a8e74))
+
 # [1.4.0](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.3.6...v1.4.0) (2023-04-24)
 
 
