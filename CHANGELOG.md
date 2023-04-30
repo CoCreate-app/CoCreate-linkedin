@@ -1,3 +1,12 @@
+## [1.4.5](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.4...v1.4.5) (2023-04-30)
+
+
+### Bug Fixes
+
+* fullscreen target updated to fullscreen fullscreen-target ([e828e60](https://github.com/CoCreate-app/CoCreate-linkedin/commit/e828e60c2096529621a22f2c49644b38f7292ab6))
+* package-lock.json and pnpm-lock.yaml added to .gitignore ([2a039c8](https://github.com/CoCreate-app/CoCreate-linkedin/commit/2a039c8fa0ae4727ca18d8240dc154289b7e3d9e))
+* removed toogle fullscreen icons. now using css content ([e5d50ad](https://github.com/CoCreate-app/CoCreate-linkedin/commit/e5d50ad4505dc0cef9516a8831d72ba30ccc8808))
+
 ## [1.4.4](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.3...v1.4.4) (2023-04-24)
 
 
