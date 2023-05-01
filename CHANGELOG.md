@@ -1,3 +1,10 @@
+## [1.4.7](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.6...v1.4.7) (2023-05-01)
+
+
+### Bug Fixes
+
+* update manifest.json to manifest.webmanifest ([cf436f8](https://github.com/CoCreate-app/CoCreate-linkedin/commit/cf436f8d246415f00c7b1fdc7a5ac7216ba225d8))
+
 ## [1.4.6](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.5...v1.4.6) (2023-05-01)
 
 
