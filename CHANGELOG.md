@@ -1,3 +1,10 @@
+## [1.4.6](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.5...v1.4.6) (2023-05-01)
+
+
+### Bug Fixes
+
+* replace fontawesome with svg ([776b21c](https://github.com/CoCreate-app/CoCreate-linkedin/commit/776b21c51c3d2b69109a59cef0b20669a5dbae63))
+
 ## [1.4.5](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.4...v1.4.5) (2023-04-30)
 
 
