@@ -1,3 +1,11 @@
+## [1.4.9](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.8...v1.4.9) (2023-05-19)
+
+
+### Bug Fixes
+
+* apikey renamed to key ([dec2a4d](https://github.com/CoCreate-app/CoCreate-linkedin/commit/dec2a4da4e573faa34421cee34ed912f23eae3c0))
+* update packages to latest version. This commit updates various packages in the dependencies section of the package.json file to their latest published versions, thereby fixing multiple bugs and improving overall performance. ([d3fad2b](https://github.com/CoCreate-app/CoCreate-linkedin/commit/d3fad2bf3848807a55d494b24b9376a3f37c8c63))
+
 ## [1.4.8](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.7...v1.4.8) (2023-05-06)
 
 
