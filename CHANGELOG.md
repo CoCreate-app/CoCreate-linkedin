@@ -1,3 +1,10 @@
+## [1.4.11](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.10...v1.4.11) (2023-06-02)
+
+
+### Bug Fixes
+
+* format demo html ([064ce2e](https://github.com/CoCreate-app/CoCreate-linkedin/commit/064ce2ed5cdeef1a287de33cae950c2927530451))
+
 ## [1.4.10](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.9...v1.4.10) (2023-05-21)
 
 
