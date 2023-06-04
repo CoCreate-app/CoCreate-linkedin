@@ -1,3 +1,10 @@
+## [1.4.12](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.11...v1.4.12) (2023-06-04)
+
+
+### Bug Fixes
+
+* **semantic-release:** worklow error solved by running node version 14 ([8db52bc](https://github.com/CoCreate-app/CoCreate-linkedin/commit/8db52bc6d3e78b2b94b19e58d5bc2161fd91c762))
+
 ## [1.4.11](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.10...v1.4.11) (2023-06-02)
 
 
