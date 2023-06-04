@@ -1,3 +1,11 @@
+## [1.4.13](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.12...v1.4.13) (2023-06-04)
+
+
+### Bug Fixes
+
+* replaced secert GITHUB_TOKEN with GITHUB ([8f4b63b](https://github.com/CoCreate-app/CoCreate-linkedin/commit/8f4b63b0175dd5c8782f5d9e67be5dba38659714))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([51903eb](https://github.com/CoCreate-app/CoCreate-linkedin/commit/51903eb64345f7cde1cf03dc66fb35a55fe74e83))
+
 ## [1.4.12](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.11...v1.4.12) (2023-06-04)
 
 
