@@ -1,3 +1,10 @@
+## [1.4.14](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.13...v1.4.14) (2023-06-04)
+
+
+### Bug Fixes
+
+* Refactor CoCreate.config.js to remove hard-coded credentials ([829c9c4](https://github.com/CoCreate-app/CoCreate-linkedin/commit/829c9c430f2e43004204ad75bb80cf23cf7adeb9))
+
 ## [1.4.13](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.12...v1.4.13) (2023-06-04)
 
 
