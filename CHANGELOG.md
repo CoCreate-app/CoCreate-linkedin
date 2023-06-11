@@ -1,3 +1,10 @@
+## [1.4.19](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.18...v1.4.19) (2023-06-11)
+
+
+### Bug Fixes
+
+* @cocreate/cli moved to dependencies ([c72eae2](https://github.com/CoCreate-app/CoCreate-linkedin/commit/c72eae21f2a51dbf856e0457af0a6c02b937da44))
+
 ## [1.4.18](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.17...v1.4.18) (2023-06-11)
 
 
