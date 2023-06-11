@@ -1,3 +1,10 @@
+## [1.4.21](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.20...v1.4.21) (2023-06-11)
+
+
+### Bug Fixes
+
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([3378472](https://github.com/CoCreate-app/CoCreate-linkedin/commit/33784725615a266cda5659b9deb64538da0b8e23))
+
 ## [1.4.20](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.19...v1.4.20) (2023-06-11)
 
 
