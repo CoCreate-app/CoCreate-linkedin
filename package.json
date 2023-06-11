@@ -58,8 +58,8 @@
     "webpack-log": "^3.0.1"
   },
   "dependencies": {
-    "@cocreate/api": "^1.10.24",
-    "@cocreate/cli": "^1.33.4",
+    "@cocreate/api": "^1.10.27",
+    "@cocreate/cli": "^1.33.6",
     "axios": "^0.21.1",
     "node-linkedin-v2": "^0.0.8",
     "passport-linkedin-oauth2": "^2.0.0"
