@@ -1,3 +1,10 @@
+## [1.4.25](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.24...v1.4.25) (2023-06-11)
+
+
+### Bug Fixes
+
+* testing workflow ([b049d87](https://github.com/CoCreate-app/CoCreate-linkedin/commit/b049d87b070688878f1e87aa36a602de408e9cb7))
+
 ## [1.4.24](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.23...v1.4.24) (2023-06-11)
 
 
