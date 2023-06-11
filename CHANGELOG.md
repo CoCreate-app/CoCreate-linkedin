@@ -1,3 +1,10 @@
+## [1.4.20](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.19...v1.4.20) (2023-06-11)
+
+
+### Bug Fixes
+
+* postintall error ([72c375e](https://github.com/CoCreate-app/CoCreate-linkedin/commit/72c375e6a5d37f0eec9c916df5f69e855a8097e2))
+
 ## [1.4.19](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.18...v1.4.19) (2023-06-11)
 
 
