@@ -1,3 +1,10 @@
+## [1.4.17](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.16...v1.4.17) (2023-06-11)
+
+
+### Bug Fixes
+
+* renamed hosts to host. the value can be a string or an array of strings ([9eb8972](https://github.com/CoCreate-app/CoCreate-linkedin/commit/9eb89727068e63994a6c5161fd6a36a0427c8512))
+
 ## [1.4.16](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.15...v1.4.16) (2023-06-10)
 
 
