@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/linkedin",
-  "version": "1.4.27",
+  "version": "1.4.28",
   "description": "A simple linkedin component in vanilla javascript. Easily configured using HTML5 attributes and/or JavaScript API.",
   "keywords": [
     "linkedin",
