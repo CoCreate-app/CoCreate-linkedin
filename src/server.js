@@ -21,29 +21,29 @@ class CoCreateLinkedin {
     }
 
     async sendLinkedin(socket, data) {
-		let params = data['data'];
-		let environment;
-		let action = data['action'];
+        let params = data['data'];
+        let environment;
+        let action = data['action'];
         let linkedin = false;
 
-		try {
-			let org = await api.getOrg(data, this.name);
-			if (params.environment){
-				environment = params['environment'];
-				delete params['environment'];  
-			} else {
-			  	environment = org.apis[this.name].environment;
-			}
+        try {
+            let org = await api.getOrg(data, this.name);
+            if (params.environment) {
+                environment = params['environment'];
+                delete params['environment'];
+            } else {
+                environment = org.apis[this.name].environment;
+            }
             this.LINKEDIN_CLIENT_ID = org.apis[this.name][environment].LINKEDIN_CLIENT_ID;
             this.LINKEDIN_CLIENT_SECRET = org.apis[this.name][environment].LINKEDIN_CLIENT_SECRET;
             this.CALL_BACK_URL = org.apis[this.name][environment].CALL_BACK_URL;
             this.ACCESS_TOKEN = org.apis[this.name][environment].ACCESS_TOKEN;
             linkedin = new LinkedInRestClient(this.LINKEDIN_CLIENT_ID, this.LINKEDIN_CLIENT_SECRET, this.CALL_BACK_URL);
-        }catch(e){
-            console.log(this.name+" : Error Connect to api",e)
+        } catch (e) {
+            console.log(this.name + " : Error Connect to api", e)
             return false;
         }
-      
+
         try {
             let response
             switch (action) {
@@ -57,10 +57,10 @@ class CoCreateLinkedin {
                     response = this.deletePost(socket, action, data, linkedin);
                     break;
             }
-            this.wsManager.send(socket, this.name, { action, response })
-    
+            this.wsManager.send(socket, { method: this.name, action, response })
+
         } catch (error) {
-          this.handleError(socket, action, error)
+            this.handleError(socket, action, error)
         }
     }
 
@@ -69,9 +69,9 @@ class CoCreateLinkedin {
             'object': 'error',
             'data': error || error.response || error.response.data || error.response.body || error.message || error,
         };
-        this.wsManager.send(socket, this.name, { action, response })
+        this.wsManager.send(socket, { method: this.name, action, response })
     }
-    
+
 
     async getLinkedinProfile() {
         const profile = await linkedin.getCurrentMemberProfile(['id', 'firstName', 'lastName', 'profilePicture'], this.ACCESS_TOKEN);
@@ -105,7 +105,7 @@ class CoCreateLinkedin {
             distribution: {
                 linkedInDistributionTarget: {}
             },
-            owner: "urn:li:person:"+linkedinId,
+            owner: "urn:li:person:" + linkedinId,
             subject: reqData.title,
             text: {
                 text: reqData.content
@@ -118,7 +118,7 @@ class CoCreateLinkedin {
         };
         return response
     }
-    
+
     async updatePost(data) {
         const reqData = data.data;
         const linkedinId = reqData.id;
@@ -135,14 +135,14 @@ class CoCreateLinkedin {
         const responseData = await linkedin.updatePost(linkedinId, updateData, this.ACCESS_TOKEN);
         return response
     }
-    
+
     async deletePost(data) {
         const reqData = data.data;
         const linkedinId = reqData.id;
         const responseData = await linkedin.deletePost(linkedinId, this.ACCESS_TOKEN);
         const response = {
             'object': 'list',
-            'data': [{'status':responseData}],
+            'data': [{ 'status': responseData }],
         };
         return response
     }
