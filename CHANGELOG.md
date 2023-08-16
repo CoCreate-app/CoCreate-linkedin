@@ -1,3 +1,18 @@
+# [1.5.0](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.28...v1.5.0) (2023-08-16)
+
+
+### Bug Fixes
+
+* crud attributes renamed ([3f54fca](https://github.com/CoCreate-app/CoCreate-linkedin/commit/3f54fca0e69b7b096d078ca00777992c312b612c))
+* render-array and render-object attributes renamed to render ([baa8d32](https://github.com/CoCreate-app/CoCreate-linkedin/commit/baa8d3261bbb825f5893adf4b098d02ff8969816))
+* replace -target -selector ([6db936e](https://github.com/CoCreate-app/CoCreate-linkedin/commit/6db936ed6ef226eb22ece47f4de3e59c8989ca26))
+* webpack.config and package.json make use of mode=production instead of process.env ([638c2ac](https://github.com/CoCreate-app/CoCreate-linkedin/commit/638c2ac8dff4ee4d40a6023fca86f71debeda407))
+
+
+### Features
+
+* name attribute and variable renamed to key ([29beb81](https://github.com/CoCreate-app/CoCreate-linkedin/commit/29beb818ac914fdb7f867492c4ceaa7129fc7c0b))
+
 ## [1.4.28](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.4.27...v1.4.28) (2023-06-14)
 
 
