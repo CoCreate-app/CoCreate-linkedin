@@ -1,3 +1,12 @@
+## [1.6.1](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.6.0...v1.6.1) (2023-08-21)
+
+
+### Bug Fixes
+
+* /dist/CoCreate.js updated to https://CoCreate.app/dist/CoCreate.js ([d7a6455](https://github.com/CoCreate-app/CoCreate-linkedin/commit/d7a64550f150a16bf2734b35148cd4403299f984))
+* replace cdn with /dist ([d9b7478](https://github.com/CoCreate-app/CoCreate-linkedin/commit/d9b7478722dc2f19877448b4c6d689dae9687aa4))
+* update file uploader ([5a97153](https://github.com/CoCreate-app/CoCreate-linkedin/commit/5a971538aa8a4bbc33db3011d0ee6131798522b0))
+
 # [1.6.0](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.5.0...v1.6.0) (2023-08-17)
 
 
