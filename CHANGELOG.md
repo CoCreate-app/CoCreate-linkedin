@@ -1,3 +1,11 @@
+## [1.7.2](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.7.1...v1.7.2) (2023-09-18)
+
+
+### Bug Fixes
+
+*  Add path and pathname ([be7249b](https://github.com/CoCreate-app/CoCreate-linkedin/commit/be7249bb83d45e328db975bd90d012e9c363adb6))
+* Update CoCreate depndencies to latest versions ([a151298](https://github.com/CoCreate-app/CoCreate-linkedin/commit/a151298b0b11d44c68469aae96ac4bb390995c05))
+
 ## [1.7.1](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.7.0...v1.7.1) (2023-08-21)
 
 
