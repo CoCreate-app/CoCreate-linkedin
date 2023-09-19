@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.7.2...v1.8.0) (2023-09-19)
+
+
+### Features
+
+* Update CoCreate dependencies to their latest versions ([d068ea8](https://github.com/CoCreate-app/CoCreate-linkedin/commit/d068ea8f8bf271eb586635fb3ba83bb7d453005c))
+
 ## [1.7.2](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.7.1...v1.7.2) (2023-09-18)
 
 
