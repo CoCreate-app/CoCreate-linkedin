@@ -1,3 +1,10 @@
+## [1.8.5](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.8.4...v1.8.5) (2023-11-03)
+
+
+### Bug Fixes
+
+* update dependencies to the lates versions ([4d19231](https://github.com/CoCreate-app/CoCreate-linkedin/commit/4d192313b8f5bf7f3d4fb2c80b44d7d8207b532e))
+
 ## [1.8.4](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.8.3...v1.8.4) (2023-10-25)
 
 
