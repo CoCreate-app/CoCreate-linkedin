@@ -1,3 +1,11 @@
+## [1.8.6](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.8.5...v1.8.6) (2023-11-09)
+
+
+### Bug Fixes
+
+* meta name typo ([ca73cb0](https://github.com/CoCreate-app/CoCreate-linkedin/commit/ca73cb0f9d42084faa6de8559381f3dc57ccdeb8))
+* update host ([46f3677](https://github.com/CoCreate-app/CoCreate-linkedin/commit/46f3677bbfe6a05859ac0c7678d256a0a6bc90a0))
+
 ## [1.8.5](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.8.4...v1.8.5) (2023-11-03)
 
 
