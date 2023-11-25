@@ -27,7 +27,7 @@ class CoCreateLinkedin {
         let linkedin = false;
 
         try {
-            let org = await api.getOrg(data, this.name);
+            let org = await api.getOrganization(data, this.name);
             if (params.environment) {
                 environment = params['environment'];
                 delete params['environment'];
