@@ -1,3 +1,15 @@
+# [1.10.0](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.9.0...v1.10.0) (2023-11-25)
+
+
+### Bug Fixes
+
+* update nav, edit button and css path ([a457eac](https://github.com/CoCreate-app/CoCreate-linkedin/commit/a457eaca1d66a3e3332ce4804eac005f5f90a61b))
+
+
+### Features
+
+* upgrade dependencies for latest features and fixes ([46824c2](https://github.com/CoCreate-app/CoCreate-linkedin/commit/46824c2adc063010f9222d65823f43850447fe42))
+
 # [1.9.0](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.8.7...v1.9.0) (2023-11-19)
 
 
