@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.11.0...v1.11.1) (2023-12-09)
+
+
+### Bug Fixes
+
+* getOrg() renamed to getOrganization() ([af3e0f6](https://github.com/CoCreate-app/CoCreate-linkedin/commit/af3e0f63671b6830782adf0ed79b59e6c373cb98))
+
 # [1.11.0](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.10.0...v1.11.0) (2023-11-25)
 
 
