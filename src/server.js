@@ -1,5 +1,4 @@
 'use strict'
-const api = require('@cocreate/api');
 const LinkedInRestClient = require("./LinkedInRestClient");
 
 class CoCreateLinkedin {
@@ -27,7 +26,7 @@ class CoCreateLinkedin {
         let linkedin = false;
 
         try {
-            let org = await api.getOrganization(data, this.name);
+            let org = await this.crud.getOrganization(data, this.name);
             if (params.environment) {
                 environment = params['environment'];
                 delete params['environment'];
