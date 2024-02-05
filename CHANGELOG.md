@@ -1,3 +1,10 @@
+## [1.11.3](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.11.2...v1.11.3) (2024-02-05)
+
+
+### Bug Fixes
+
+* Removed https://cdn.cocreate.app/latest/CoCreate.min.css ([1e2db3e](https://github.com/CoCreate-app/CoCreate-linkedin/commit/1e2db3eb50ce17b662153816a044758499167c3b))
+
 ## [1.11.2](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.11.1...v1.11.2) (2024-02-03)
 
 
