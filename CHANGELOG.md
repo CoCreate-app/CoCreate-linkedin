@@ -1,3 +1,11 @@
+## [1.11.5](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.11.4...v1.11.5) (2024-06-12)
+
+
+### Bug Fixes
+
+* bump cocreate dependencies ([97270ac](https://github.com/CoCreate-app/CoCreate-linkedin/commit/97270acc42f548efc3c88175fda887d5e4d3faad))
+* svg icon class ([807bdc8](https://github.com/CoCreate-app/CoCreate-linkedin/commit/807bdc81ad25b6c763ef4ddbbb1edac30d9df791))
+
 ## [1.11.4](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.11.3...v1.11.4) (2024-04-29)
 
 
