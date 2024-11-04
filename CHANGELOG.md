@@ -1,3 +1,16 @@
+# [1.12.0](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.11.5...v1.12.0) (2024-11-04)
+
+
+### Bug Fixes
+
+* pretier.config.js and file formating ([b529409](https://github.com/CoCreate-app/CoCreate-linkedin/commit/b529409a44e308c1114f444fd92cbc4cced2af24))
+
+
+### Features
+
+* add prettier.config.js and format files ([d4a434b](https://github.com/CoCreate-app/CoCreate-linkedin/commit/d4a434b05636cee824c4334fa81865411d489974))
+* add prettier.config.js and format files ([948f6af](https://github.com/CoCreate-app/CoCreate-linkedin/commit/948f6af2fb7cbec76a91e9d0588ad35cd5ac1687))
+
 ## [1.11.5](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.11.4...v1.11.5) (2024-06-12)
 
 
