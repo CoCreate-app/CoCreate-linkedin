@@ -1,3 +1,13 @@
+## [1.12.1](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.12.0...v1.12.1) (2025-04-30)
+
+
+### Bug Fixes
+
+* added css-loader ([43e38ad](https://github.com/CoCreate-app/CoCreate-linkedin/commit/43e38ad4da251b99e2ac2374970bb24694142d5d))
+* update query attributes ([fc103aa](https://github.com/CoCreate-app/CoCreate-linkedin/commit/fc103aa72ce3931b2d68519c1b1f7f95e4920b69))
+* updated cocreate modules versions ([382e806](https://github.com/CoCreate-app/CoCreate-linkedin/commit/382e80605dcfe08b3fa78d42606c15857da679da))
+* webpack.config and devdependencies ([a98f60c](https://github.com/CoCreate-app/CoCreate-linkedin/commit/a98f60c3b45ebe32877cb9d4523154dc01c9d271))
+
 # [1.12.0](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.11.5...v1.12.0) (2024-11-04)
 
 
