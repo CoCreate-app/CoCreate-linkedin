@@ -1,3 +1,10 @@
+## [1.12.3](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.12.2...v1.12.3) (2026-02-04)
+
+
+### Bug Fixes
+
+* update worklow ([1938851](https://github.com/CoCreate-app/CoCreate-linkedin/commit/19388517867411c7e95ae181d8ef2ac44181c885))
+
 ## [1.12.2](https://github.com/CoCreate-app/CoCreate-linkedin/compare/v1.12.1...v1.12.2) (2025-05-01)
 
 
